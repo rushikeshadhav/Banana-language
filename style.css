@@ -1,0 +1,51 @@
+
+body {
+    font-family: 'Kalam', cursive;;
+}
+:root {
+    --primary-color: #F2C94C;
+    --secondary-color: #f8bc06;
+}
+
+nav {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+main {
+    
+    margin: auto;
+    max-width: 600px;
+}
+textarea {
+    display: block;
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    border-radius: 2px;
+    padding: 0.2rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--secondary-color);
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    background-color: var(--primary-color);
+    border: none;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: large;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 3rem;
+    margin-top: 2rem;
+    text-align: center;
+}
